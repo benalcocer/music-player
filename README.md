@@ -15,7 +15,7 @@ JavaFX music player front-end for the desktop. A **proof of concept** applicatio
 - JWT authed connections to a backend to retrieve music
 - Storage server requires AWS credential signing that is handled on the backend
 
-###Pages (Version 1)
+## Pages
 
 Sign in page
 
