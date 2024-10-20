@@ -43,8 +43,13 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
-        Thread.setDefaultUncaughtExceptionHandler(Main::handleUncaughtException);
-        launch();
+        if (Constants.getInstance().DATABASE_HOST.isBlank()) {
+            Logger.getGlobal().severe("Could not find DATABASE_HOST environment property.");
+            System.exit(1);
+        } else {
+            Thread.setDefaultUncaughtExceptionHandler(Main::handleUncaughtException);
+            launch();
+        }
     }
 
     @Override

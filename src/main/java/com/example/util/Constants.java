@@ -1,7 +1,7 @@
 package com.example.util;
 
 public class Constants {
-    public final String DATABASE_HOST = Environment.getInstance().get("DATABASE_HOST").orElseThrow();
+    public final String DATABASE_HOST = Environment.getInstance().get("DATABASE_HOST").orElse("");
     public final double MIN_WINDOW_WIDTH = 426.0;
     public final double MIN_WINDOW_HEIGHT = 240.0;
 
