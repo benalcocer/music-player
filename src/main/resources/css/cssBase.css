@@ -1,0 +1,119 @@
+/* GridView */
+.grid-view .grid-pane {
+    -fx-vgap: 8;
+    -fx-hgap: 8;
+}
+
+/* Input View */
+.input-view {
+    -fx-pref-width: 400px;
+    -fx-pref-height: 24px;
+    -fx-fill-height: true;
+    -fx-spacing: 8;
+    -fx-alignment: center-right;
+}
+
+.input-view .text-field {
+    -fx-max-height: Infinity;
+}
+
+/* Icon button */
+.icon-button {
+    -fx-max-height: 24px;
+    -fx-min-height: 24px;
+    -fx-max-width: 24px;
+    -fx-min-width: 24px;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+}
+
+.icon-button:hover {
+    -fx-border-color: #3c7ef1;
+}
+
+.controls-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+}
+
+.controls-button:hover {
+    -fx-border-color: #3c7ef1;
+}
+
+/* Login View */
+.login-view,
+.settings-view {
+    -fx-alignment: center;
+    -fx-background-color: -background;
+}
+
+/* SettingsView */
+.settings-view .input-view {
+    -fx-pref-width: 150px;
+}
+
+.root-view {
+    -fx-background-color: -background;
+}
+
+.media-controls-view {
+    /* -fx-background-color: red; */
+    -fx-alignment: center;
+}
+
+.additional-controls {
+    /* -fx-background-color: red; */
+    -fx-alignment: center;
+}
+
+/* Controls View */
+.controls-view {
+    -fx-padding: 0 8 0 8;
+    -fx-background-color: -background;
+    -fx-pref-height: 100px;
+    -fx-border-width: 1px 0px 0px 0px;
+}
+
+.controls-view .button {
+    /* -fx-background-color: gray; */
+    -fx-min-height: 40px;
+    -fx-min-width: 40px;
+}
+
+.controls-view .middle-container {
+    -fx-min-width: 270px;
+    -fx-max-width: 690px;
+    -fx-alignment: center;
+}
+
+.controls-view .left-container {
+    -fx-alignment: center;
+}
+
+.playlist-name-label {
+    -fx-font-size: 24;
+}
+
+/* PlaylistView */
+.playlist-view {
+    -fx-border-color: transparent;
+}
+
+/* SearchView */
+.search-view {
+    -fx-border-color: transparent;
+}
+
+.button {
+    -fx-background-insets: 0;
+}
+
+/* TableView */
+.table-view {
+    -fx-border-color: transparent;
+}
+.table-view .column-header .label {
+    -fx-alignment: center-left;
+}

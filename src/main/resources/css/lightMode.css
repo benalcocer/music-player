@@ -1,0 +1,124 @@
+.root {
+    -background: #f8f5f2;
+    -text-color: #232323;
+    -custom-border-color: #232323;
+    -highlight-color: #078080;
+    -button-color: #078080;
+    -secondary-color: #088f8f;
+}
+
+/* LibraryView */
+.library-view .label .text {
+    -fx-fill: -text-color;
+}
+
+/* SearchView */
+.search-view .text-field {
+    -fx-background-color: -secondary-color;
+    -fx-text-fill: -text-color;
+    -fx-prompt-text-fill: -text-color;
+}
+
+/* Login View */
+.login-view .label .text {
+    -fx-fill: -text-color;
+}
+
+/* ControlsView */
+.controls-view {
+    -fx-border-color: -custom-border-color;
+}
+
+.controls-view .label .text {
+    -fx-fill: -text-color;
+}
+
+/* PlaylistView */
+.playlist-view .text {
+    -fx-fill: -text-color;
+}
+
+/* TableView */
+.table-view {
+    -fx-background-color: -background;
+}
+.table-view .table-row-cell {
+    -fx-background-color: -background;
+    -fx-border-color: -background;
+    -fx-table-cell-border-color: -background;
+}
+.table-view .table-row-cell:odd {
+    -fx-background-color: -background;
+}
+.playlist-table-view .table-row-cell:selected {
+    -fx-background-color: -highlight-color;
+    -fx-border-color: -highlight-color;
+    -fx-table-cell-border-color: -highlight-color;
+}
+.table-view .table-row-cell:populated-hover {
+    -fx-background-color: -secondary-color;
+    -fx-border-color: -secondary-color;
+    -fx-table-cell-border-color: -secondary-color;
+}
+.table-view .text {
+    -fx-fill: -text-color;
+}
+
+.table-view .column-resize-line,
+.table-view .column-header,
+.table-view .filler {
+    -fx-background-color: -background;
+}
+
+/* ScrollBar */
+.scroll-bar {
+    -fx-background-color: -background;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: -secondary-color;
+}
+
+/* Button */
+.button {
+    -fx-background-color: -button-color;
+    -fx-border-color: -custom-border-color;
+}
+
+.button .text {
+    -fx-fill: -text-color;
+}
+
+/* IconButton */
+.icon-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-insets: 0;
+}
+
+.icon-button:hover {
+    -fx-border-color: -highlight-color;
+}
+
+/* SettingsView */
+.settings-view .label .text {
+    -fx-fill: -text-color;
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-background-color: -secondary-color;
+}
+.combo-box .text {
+    -fx-fill: -text-color;
+}
+
+.combo-box .combo-box-popup .list-view,
+.combo-box .combo-box-popup .list-cell {
+    -fx-background-color: -secondary-color;
+    -fx-text-fill: -text-color;
+}
+.combo-box .combo-box-popup .list-cell:hover {
+    -fx-text-fill: -text-color;
+    -fx-background-color: -highlight-color;
+}
