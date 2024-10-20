@@ -2,6 +2,8 @@
 
 JavaFX music player front-end for the desktop. A **proof of concept** application that can be improved further with more features. Support JWT authenticated connections to a backend server to retrieve data and also music from S3 storage. More robust testing suites should be added as well as manual testing.
 
+See [Spring Backend](https://github.com/benalcocer/music-player-backend "backend").
+
 ### Features
 
 - Login page with email/password to access application
